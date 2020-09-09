@@ -35,5 +35,6 @@ module.exports = {
     }],
     'import/no-cycle': [0, { ignoreExternal: true }],
     'max-classes-per-file': [0],
+    'linebreak-style': 0,
   },
 };
