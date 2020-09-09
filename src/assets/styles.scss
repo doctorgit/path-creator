@@ -1,0 +1,67 @@
+@import "variables";
+
+#app {
+  // font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+
+  padding: 40px;
+}
+
+div.buttons {
+  justify-content: flex-end;
+}
+
+.step-navigation.buttons {
+  justify-content: center;
+}
+
+.b-steps .steps .step-items .step-item.is-active .step-marker {
+  background-color: $yellow;
+  border-color: $white;
+  color: $yellow;
+  border-width: 2px;
+}
+
+.select select {
+  background-color: $blue;
+  border-color: $blue;
+  color: $white;
+}
+
+.select:not(.is-multiple):not(.is-loading)::after {
+   border-color: $white;
+}
+
+.select:not(.is-multiple):not(.is-loading):hover::after {
+   border-color: $white;
+}
+
+
+.mdi-plus:before {
+  content: "+";
+}
+
+.mdi-minus:before {
+  content: "-";
+}
+
+.mdi-plus, .mdi-minus {
+  font-size: 23px;
+  font-style: normal;
+}
+
+.button.is-primary,
+.button.is-primary[disabled],
+fieldset[disabled] .button.is-primary {
+  background-color: $blue;
+  border-color: transparent;
+  color: $white;
+}
+
+.button.is-primary:hover, .button.is-primary.is-hovered {
+  background-color: $blue;
+  border-color: transparent;
+  color: $white;
+}

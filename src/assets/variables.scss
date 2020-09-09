@@ -1,0 +1,29 @@
+@import "~bulma/sass/utilities/_all";
+
+$yellow:  #FFDD58;
+$white:   #FFFFFF;
+$blue:    #007EFF;
+$blue-light:    #89C0FF;
+
+
+$steps-default-color: $yellow;
+
+$steps-previous-color: $yellow;
+$steps-active-color: $yellow;
+$steps-maker-default-color: $white;
+
+$steps-marker-default-border: 1px solid $yellow;
+
+$button-color: $white;
+$button-hover-color: $white;
+$button-text-hover-color: $white;
+$button-background-color: $blue;
+
+$button-disabled-background-color: $blue-light;
+
+$select-arrow-color: $white;
+
+
+// Import Bulma and Buefy styles
+@import "~bulma";
+@import "~buefy/src/scss/buefy";
